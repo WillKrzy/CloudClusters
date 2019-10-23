@@ -1,0 +1,50 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class A)
+ Iterations:    4
+ Number of processes:     32
+
+ Initialization time:           0.224 seconds
+
+  iter    1
+  iter    4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.2433365309069E-05
+ Error is    0.1964974584552E-12
+
+
+ MG Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 256
+ Iterations      =                        4
+ Time in seconds =                     0.52
+ Total processes =                       32
+ Compiled procs  =                       32
+ Mop/s total     =                  7483.21
+ Mop/s/process   =                   233.85
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              16 Mar 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -g
+    FLINKFLAGS   = (none)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

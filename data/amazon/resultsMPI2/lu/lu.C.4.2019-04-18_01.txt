@@ -1,0 +1,11 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:  250
+ Number of processes:     4
+
+ Time step    1
+ Time step   20
+ Time step   40

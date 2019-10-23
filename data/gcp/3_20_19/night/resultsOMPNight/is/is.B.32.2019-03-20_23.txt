@@ -1,0 +1,51 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:  10
+ Number of available threads:  32
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     0.56
+ Total threads   =                       32
+ Avail threads   =                       32
+ Mop/s total     =                   598.98
+ Mop/s/thread    =                    18.72
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              16 Mar 2019
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp -mcmodel=medium
+    CLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

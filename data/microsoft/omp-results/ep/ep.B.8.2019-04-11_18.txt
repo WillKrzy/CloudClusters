@@ -1,0 +1,56 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of available threads:                      8
+
+EP Benchmark Results:
+
+CPU Time =    7.4890
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     4.033815542441808D+04   -2.660669192812148D+04
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                     7.49
+ Total threads   =                        8
+ Avail threads   =                        8
+ Mop/s total     =                   286.75
+ Mop/s/thread    =                    35.84
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              16 Mar 2019
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

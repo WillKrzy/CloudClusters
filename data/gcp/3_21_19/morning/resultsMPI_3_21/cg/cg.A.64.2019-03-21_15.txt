@@ -1,0 +1,62 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:      14000
+ Iterations:    15
+ Number of active processes:    64
+ Number of nonzeroes per row:       11
+ Eigenvalue shift: .200E+02
+
+   iteration           ||r||                 zeta
+        1       0.23082748870552E-12    19.9997581277040
+        2       0.22388564950900E-14    17.1140495745506
+        3       0.22430340134709E-14    17.1296668946143
+        4       0.22572944904735E-14    17.1302113581192
+        5       0.22497880911402E-14    17.1302338856353
+        6       0.22278556062597E-14    17.1302349879482
+        7       0.22107597844210E-14    17.1302350498916
+        8       0.21927271215759E-14    17.1302350537510
+        9       0.22089135986113E-14    17.1302350540101
+       10       0.21692014536545E-14    17.1302350540284
+       11       0.21247817381242E-14    17.1302350540298
+       12       0.21241626554659E-14    17.1302350540299
+       13       0.20828998028314E-14    17.1302350540299
+       14       0.20589534712525E-14    17.1302350540299
+       15       0.20447125588399E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5226337199892E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.25
+ Total processes =                       64
+ Compiled procs  =                       64
+ Mop/s total     =                  6090.87
+ Mop/s/process   =                    95.17
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              16 Mar 2019
+
+ Compile options:
+    MPIF77       = mpif77
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = (none)
+    FMPI_INC     = (none)
+    FFLAGS       = -g
+    FLINKFLAGS   = (none)
+    RAND         = randi8
+
+
+ Please send feedbacks and/or the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+
+

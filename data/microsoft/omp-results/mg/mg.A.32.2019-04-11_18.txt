@@ -1,0 +1,50 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class A)
+ Iterations:                      4
+ Number of available threads:    32
+
+ Initialization time:           0.347 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.2433365309069E-05
+ Error is    0.1952791394036E-12
+
+
+ MG Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 256
+ Iterations      =                        4
+ Time in seconds =                     0.64
+ Total threads   =                       32
+ Avail threads   =                       32
+ Mop/s total     =                  6050.30
+ Mop/s/thread    =                   189.07
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              27 Feb 2019
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

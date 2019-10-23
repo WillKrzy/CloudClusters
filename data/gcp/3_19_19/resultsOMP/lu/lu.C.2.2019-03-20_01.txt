@@ -1,0 +1,72 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     2
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.7011823598892E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.1146791360512E-13
+           3   0.2562388145827E+04 0.2562388145827E+04 0.2857269052386E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.2697020122635E-13
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1225747471546E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2000172158563E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1277055837269E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.1299487892226E-13
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1326016997713E-14
+           5   0.4559029100432E+03 0.4559029100433E+03 0.2069740579195E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1919219965579E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                   343.44
+ Total threads   =                        2
+ Avail threads   =                        2
+ Mop/s total     =                  5936.94
+ Mop/s/thread    =                  2968.47
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.3.1
+ Compile date    =              16 Mar 2019
+
+ Compile options:
+    F77          = gfortran
+    FLINK        = $(F77)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp -mcmodel=medium
+    FLINKFLAGS   = -O3 -fopenmp -mcmodel=medium
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

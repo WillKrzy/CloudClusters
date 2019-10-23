@@ -1,0 +1,14 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  102x 102x 102
+ Iterations:                    250
+ Number of available threads:    32
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
